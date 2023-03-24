@@ -8,3 +8,5 @@ def say_hello(recipient):
     return recipient
 
 print("hola")
+
+print(say_hello("felipe"))
