@@ -8,3 +8,5 @@ Ekata Leo Oni, and Maria Rodriguez contributed to my repository
 Modified the environment "software_dev_v1.yml" using Anaconda Prompt by:
 * Installing cartopy
 * Installing geopy
+
+The resulting environment is called software_dev_v1_mod.yml.
