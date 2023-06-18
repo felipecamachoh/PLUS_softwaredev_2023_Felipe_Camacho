@@ -197,7 +197,3 @@ def mean_aggregation_plot(input_geojson, column_name, cmap, output_name):
 
     # Save the plot as a PNG image
     plt.savefig(output_name + ".png", dpi=300)  # Specify the desired filename and DPI (dots per inch)
-
-#hexagonal_tesselation(r"C:\Users\fcam_\OneDrive - Universidad de los Andes\Copernicus_Master_Courses\Summer_Semester_2023\SOFTWARE_DEVELOPMENT\PLUS_softwaredev_2023_Felipe_Camacho\A3_Hexagonal_Grid\AOI.geojson", 10, "EPSG:3857", "test_function_5")
-#mean_aggregation(r"C:\Users\fcam_\OneDrive - Universidad de los Andes\Copernicus_Master_Courses\Summer_Semester_2023\SOFTWARE_DEVELOPMENT\PLUS_softwaredev_2023_Felipe_Camacho\A3_Hexagonal_Grid\AOI.geojson",r"C:\Users\fcam_\OneDrive - Universidad de los Andes\Copernicus_Master_Courses\Summer_Semester_2023\SOFTWARE_DEVELOPMENT\PLUS_softwaredev_2023_Felipe_Camacho\A3_Hexagonal_Grid\Landsat8_2018-08-01.tif", 7, "EPSG:4326", "test_function_aggregaeted")
-#mean_aggregation_plot(r"C:\Users\fcam_\OneDrive - Universidad de los Andes\Copernicus_Master_Courses\Summer_Semester_2023\SOFTWARE_DEVELOPMENT\PLUS_softwaredev_2023_Felipe_Camacho\test_function_aggregaeted.geojson", "mean", 'viridis', "Mean_Temperature_Plot")
